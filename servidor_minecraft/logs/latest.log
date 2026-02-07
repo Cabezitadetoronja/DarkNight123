@@ -1,0 +1,616 @@
+[07Feb2026 16:52:06.275] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[07Feb2026 16:52:06.279] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[07Feb2026 16:52:14.339] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Feb2026 16:52:14.423] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/DarkNight123/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[07Feb2026 16:52:15.004] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/DarkNight123/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.4/fmlcore-1.20.1-47.4.4.jar is missing mods.toml file
+[07Feb2026 16:52:15.005] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/DarkNight123/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.4/javafmllanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[07Feb2026 16:52:15.006] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/DarkNight123/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.4/lowcodelanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[07Feb2026 16:52:15.007] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/DarkNight123/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.4/mclanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[07Feb2026 16:52:15.896] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 19 dependencies adding them to mods collection
+[07Feb2026 16:52:18.743] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Feb2026 16:52:19.119] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[07Feb2026 16:52:19.231] [main/WARN] [mixin/]: Reference map 'sittingplus.refmap.json' for sittingplus.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Feb2026 16:52:19.500] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.4+mc1.20.1: 96 options available, 0 override(s) found
+[07Feb2026 16:52:19.501] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[07Feb2026 16:52:19.519] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[07Feb2026 16:52:19.671] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Feb2026 16:52:19.680] [main/WARN] [mixin/]: Reference map 'mixins.block_factorys_bosses.refmap.json' for mixins.block_factorys_bosses.json could not be read. If this is a development environment you can ignore this message
+[07Feb2026 16:52:19.688] [main/WARN] [mixin/]: Reference map 'knightquest.refmap.json' for knightquest.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Feb2026 16:52:19.689] [main/WARN] [mixin/]: Reference map 'knightquest.refmap.json' for knightquest.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Feb2026 16:52:19.696] [main/WARN] [mixin/]: Reference map 'expanded_ecosphere-forge-refmap.json' for wwoo.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Feb2026 16:52:19.726] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Feb2026 16:52:19.777] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Feb2026 16:52:19.826] [main/INFO] [Puzzles Lib/]: Loading 83 mods:
+	- advancementplaques 1.6.9
+	- alexscaves 2.0.2
+	- alexsmobs 1.22.9
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- artifacts 9.5.16
+		\-- expandability 9.0.4
+	- balm 7.3.36
+		\-- kuma_api 20.1.12
+	- bettercombat 1.8.6+1.20.1
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterendisland 1.20-Forge-2.0.6
+	- betterfortresses 1.20-Forge-2.0.6
+	- betterjungletemples 1.20-Forge-2.0.5
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- bettervillage 3.3.1
+	- block_factorys_bosses 1.0.9.2.
+	- blueprint 7.1.3
+	- brewery 1.1.9
+	- caelus 3.2.0+1.20.1
+	- carryon 2.1.2.7
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- coroutil 1.20.1-1.3.7
+	- cosmeticarmorreworked 1.20.1-v1a
+	- create 6.0.6
+		|-- flywheel 1.0.4
+		\-- ponder 1.0.80
+	- creativecore 2.12.32
+	- cristellib 1.1.6
+	- curios 5.14.1+1.20.1
+	- doapi 1.2.15
+		\-- terraform 7.0.1
+	- dragonfinder 1.20.1-1.0.0
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- easyshulkerboxes 8.0.2
+		\-- puzzlesapi 8.1.6
+	- eeeabsmobs 1.20.1-0.97
+	- expanded_ecosphere 3.2.4
+	- ferritecore 6.0.1
+	- forge 47.4.4
+	- fragmentum 0.2.7
+	- fzzy_config 0.7.3+1.20.1+forge
+	- geckolib 4.8.2
+	- gravestone 1.20.1-1.0.35
+	- hangglider 8.0.1
+	- iceandfire 2.1.13-1.20.1
+	- iceberg 1.1.25
+	- immediatelyfast 1.5.2+1.20.4
+	- immersive_aircraft 1.4.0+1.20.1
+	- irons_spellbooks 1.20.1-3.4.0.11
+	- jade 11.13.2+forge
+	- jei 15.20.0.116
+	- journeymap 5.10.3
+	- knightlib 1.3.1
+	- knightquest 1.9.1
+	- kotlinforforge 4.11.0
+	- libraryferret 4.0.0
+	- man_of_many_planes 0.2.0+1.20.1
+	- minecraft 1.20.1
+	- modernfix 5.24.4+mc1.20.1
+	- neapolitan 5.1.0
+	- obscure_tooltips 3.1.1
+	- octolib 0.5.0.1
+	- playeranimator 1.0.2-rc1+1.20
+	- playerrevive 2.0.31
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- relics 0.8.0.11
+	- simplyswords 1.56.0-1.20.1
+	- sittingplus 2.0.5
+	- travelersbackpack 9.1.44
+	- treechop 0.19.0
+	- visualworkbench 8.0.1
+	- voicechat 1.20.1-2.6.6
+		\-- voicechat_api 2.6.0
+	- waterframes 2.1.15
+	- watut 1.20.1-1.2.3
+	- waystones 14.1.17
+	- you_died 3.0.0.17
+	- yungsapi 1.20-Forge-4.0.6
+[07Feb2026 16:52:19.847] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Feb2026 16:52:21.184] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[07Feb2026 16:52:21.185] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[07Feb2026 16:52:21.185] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[07Feb2026 16:52:22.004] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[07Feb2026 16:52:22.621] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.4.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.4.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.4.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[07Feb2026 16:52:22.699] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (24.86 s after launch)
+[07Feb2026 16:52:23.002] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[07Feb2026 16:52:23.002] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[07Feb2026 16:52:25.456] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2754 milliseconds
+[07Feb2026 16:52:27.557] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[07Feb2026 16:52:27.679] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[07Feb2026 16:52:28.164] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:iteminteractions
+[07Feb2026 16:52:28.167] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[07Feb2026 16:52:28.189] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[07Feb2026 16:52:28.225] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
+[07Feb2026 16:52:28.240] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:slotcycling
+[07Feb2026 16:52:28.244] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:limitlesscontainers
+[07Feb2026 16:52:28.252] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:statues
+[07Feb2026 16:52:28.263] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[07Feb2026 16:52:28.280] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[07Feb2026 16:52:28.366] [modloading-worker-0/INFO] [STDOUT/]: [com.tiviacz.travelersbackpack.TravelersBackpack:readOldCommonConfig:180]: curiosIntegration not found in the [common.backpackSettings] section.
+[07Feb2026 16:52:28.425] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[07Feb2026 16:52:28.426] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[07Feb2026 16:52:28.429] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[07Feb2026 16:52:28.431] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[07Feb2026 16:52:28.432] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[07Feb2026 16:52:28.433] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[07Feb2026 16:52:28.434] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[07Feb2026 16:52:28.438] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[07Feb2026 16:52:28.903] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[07Feb2026 16:52:29.083] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.4, for MC 1.20.1 with MCP 20230612.114412
+[07Feb2026 16:52:29.084] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.4 Initialized
+[07Feb2026 16:52:29.745] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for hangglider:main
+[07Feb2026 16:52:29.843] [modloading-worker-0/INFO] [Expanded Ecosphere/]: Loading Expanded Ecosphere
+[07Feb2026 16:52:29.867] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
+[07Feb2026 16:52:30.201] [modloading-worker-0/INFO] [Expanded Ecosphere/]: [Expanded Ecosphere Updater] Found no updates
+[07Feb2026 16:52:30.497] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[07Feb2026 16:52:30.547] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id brewery:alcohol_sync_request
+[07Feb2026 16:52:30.547] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id brewery:drink_alcohol
+[07Feb2026 16:52:30.567] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[07Feb2026 16:52:30.594] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyshulkerboxes:main
+[07Feb2026 16:52:30.609] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[07Feb2026 16:52:30.807] [modloading-worker-0/INFO] [STDOUT/]: [net.sweenus.simplyswords.SimplySwords:init:134]: /workspaces/DarkNight123/servidor_minecraft/config
+[07Feb2026 16:52:32.411] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@5376b688 has been registered twice for the same name treechop:chop_wood.
+[07Feb2026 16:52:33.665] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[07Feb2026 16:52:33.961] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[07Feb2026 16:52:33.963] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[07Feb2026 16:52:33.964] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[07Feb2026 16:52:34.364] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[07Feb2026 16:52:34.676] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/DarkNight123/servidor_minecraft/config/knightlib.toml is not correct. Correcting
+[07Feb2026 16:52:34.955] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[07Feb2026 16:52:34.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[07Feb2026 16:52:35.011] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[07Feb2026 16:52:35.011] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesapi.json
+[07Feb2026 16:52:35.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesapi] Found status: BETA Current: 8.1.6 Target: null
+[07Feb2026 16:52:35.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[07Feb2026 16:52:35.035] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[07Feb2026 16:52:35.036] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[07Feb2026 16:52:35.038] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[07Feb2026 16:52:35.043] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[07Feb2026 16:52:35.052] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[07Feb2026 16:52:35.055] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[07Feb2026 16:52:35.059] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[07Feb2026 16:52:35.060] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[07Feb2026 16:52:35.060] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[07Feb2026 16:52:35.149] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[07Feb2026 16:52:35.149] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[07Feb2026 16:52:35.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.44 Target: null
+[07Feb2026 16:52:35.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[07Feb2026 16:52:35.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[07Feb2026 16:52:35.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Feb2026 16:52:35.198] [main/INFO] [journeymap/]: Initializing Packet Registries
+[07Feb2026 16:52:35.249] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[07Feb2026 16:52:35.250] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[07Feb2026 16:52:35.251] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[07Feb2026 16:52:35.251] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[07Feb2026 16:52:35.287] [main/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Starting to register Curios item...
+[07Feb2026 16:52:35.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.4 Target: 47.4.10
+[07Feb2026 16:52:35.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[07Feb2026 16:52:35.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Found status: UP_TO_DATE Current: 1.6.9 Target: null
+[07Feb2026 16:52:35.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[07Feb2026 16:52:35.622] [modloading-worker-0/INFO] [com.chiki.dragonfinder.DragonFinder/]: Hello world from the MDK
+[07Feb2026 16:52:35.622] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[07Feb2026 16:52:35.622] [modloading-worker-0/INFO] [com.chiki.dragonfinder.DragonFinder/]: Got IMC [Hello world]
+[07Feb2026 16:52:35.723] [modloading-worker-0/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Registering custom criteria trigger...
+[07Feb2026 16:52:35.760] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[07Feb2026 16:52:35.765] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[07Feb2026 16:52:35.766] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[07Feb2026 16:52:35.766] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[07Feb2026 16:52:35.776] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[07Feb2026 16:52:35.780] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[07Feb2026 16:52:35.781] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[07Feb2026 16:52:35.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.6.6 Target: null
+[07Feb2026 16:52:35.989] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/hangglider.json
+[07Feb2026 16:52:35.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[07Feb2026 16:52:35.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[07Feb2026 16:52:36.018] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[07Feb2026 16:52:36.018] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[07Feb2026 16:52:36.115] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[07Feb2026 16:52:36.115] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[07Feb2026 16:52:36.124] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[07Feb2026 16:52:36.124] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyshulkerboxes] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyshulkerboxes.json
+[07Feb2026 16:52:36.152] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyshulkerboxes] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[07Feb2026 16:52:36.365] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Feb2026 16:52:36.507] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[07Feb2026 16:52:36.896] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/DarkNight123/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23247!/assets/.mcassetsroot' uses unexpected schema
+[07Feb2026 16:52:36.897] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/DarkNight123/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23247!/data/.mcassetsroot' uses unexpected schema
+[07Feb2026 16:52:36.969] [main/INFO] [com.simibubi.create.Create/]: Created 185 recipes which will be injected into the game
+[07Feb2026 16:52:36.974] [main/INFO] [com.simibubi.create.Create/]: Created 1 tags which will be injected into the game
+[07Feb2026 16:52:37.371] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[07Feb2026 16:52:38.225] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[07Feb2026 16:52:39.942] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[07Feb2026 16:52:40.938] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.4-universal.jar%23252!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.4-universal.jar%23252!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Feb2026 16:52:42.417] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 7 modifier groups
+[07Feb2026 16:52:42.548] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:emptying/compat/neapolitan/milk_bottle: com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:milk_bottle'
+[07Feb2026 16:52:42.579] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
+[07Feb2026 16:52:42.584] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 9 modifier groups
+[07Feb2026 16:52:42.724] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3499 advancements
+[07Feb2026 16:52:42.738] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[07Feb2026 16:52:42.747] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[07Feb2026 16:52:42.749] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[07Feb2026 16:52:42.750] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[07Feb2026 16:52:42.751] [main/ERROR] [bettervillage/]: Ice And Fire compatibility is not enabled for Better Village and Ice And Fire is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and Ice And Fire.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[07Feb2026 16:52:42.813] [main/WARN] [ModernFix/]: Initial datapack load took 5.794 s
+[07Feb2026 16:52:43.203] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Feb2026 16:52:43.204] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Feb2026 16:52:43.204] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Feb2026 16:52:43.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Feb2026 16:52:43.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Feb2026 16:52:43.304] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Feb2026 16:52:43.369] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Feb2026 16:52:43.369] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Feb2026 16:52:43.370] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Feb2026 16:52:43.370] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Feb2026 16:52:43.384] [Server thread/INFO] [Puzzles Lib/]: Loading server config for puzzlesapi
+[07Feb2026 16:52:43.386] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[07Feb2026 16:52:43.388] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[07Feb2026 16:52:43.390] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Feb2026 16:52:43.402] [Server thread/INFO] [Puzzles Lib/]: Loading server config for hangglider
+[07Feb2026 16:52:43.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Feb2026 16:52:44.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Feb2026 16:52:45.104] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Feb2026 16:52:45.105] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Feb2026 16:52:45.105] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Feb2026 16:52:45.668] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Feb2026 16:52:46.162] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[07Feb2026 16:52:46.597] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[07Feb2026 16:52:47.095] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[07Feb2026 16:52:47.631] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3537 ms
+[07Feb2026 16:52:47.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.251s)! For help, type "help"
+[07Feb2026 16:52:47.755] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Feb2026 16:52:47.783] [Server thread/INFO] [com.chiki.dragonfinder.DragonFinder/]: HELLO from server starting
+[07Feb2026 16:52:47.785] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[07Feb2026 16:52:47.785] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[07Feb2026 16:52:47.880] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 156158 bytes (in 16 string chunks with the size of 10000)
+[07Feb2026 16:52:47.881] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[07Feb2026 16:52:47.890] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[07Feb2026 16:52:47.890] [Server thread/WARN] [ModernFix/]: Dedicated server took 50.047 seconds to load
+[07Feb2026 16:58:31.194] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[07Feb2026 16:58:31.309] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vitori_pinguino[/10.253.75.189:64583] logged in with entity id 163 at (-761.7880125620003, 57.528874177779095, 926.683505449415)
+[07Feb2026 16:58:31.406] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player vitori_pinguino
+[07Feb2026 16:58:31.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vitori_pinguino joined the game
+[07Feb2026 16:58:31.488] [Server thread/INFO] [Jade/]: Syncing config to vitori_pinguino (b127cec6-5c5e-3e36-b86f-c434375ac245)
+[07Feb2026 16:58:36.582] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of vitori_pinguino (20)
+[07Feb2026 16:58:36.586] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to vitori_pinguino
+[07Feb2026 16:58:36.822] [Worker-Main-16/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[07Feb2026 16:58:54.188] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b127cec6-5c5e-3e36-b86f-c434375ac245
+[07Feb2026 16:58:55.186] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b127cec6-5c5e-3e36-b86f-c434375ac245
+[07Feb2026 16:58:55.190] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player vitori_pinguino (b127cec6-5c5e-3e36-b86f-c434375ac245) successfully connected to voice chat
+[07Feb2026 16:59:15.996] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vitori_pinguino lost connection: Disconnected
+[07Feb2026 16:59:15.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vitori_pinguino left the game
+[07Feb2026 16:59:16.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vitori_pinguino suffocated in a wall
+[07Feb2026 16:59:16.008] [Server thread/INFO] [gravestone/]: The death ID of player vitori_pinguino is 96825d62-1db3-468d-b1f7-2624278a5c47
+[07Feb2026 16:59:16.099] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client vitori_pinguino
+[07Feb2026 16:59:16.191] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 3171ms or 63 ticks
+[07Feb2026 16:59:28.216] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vitori_pinguino[/10.253.75.189:64594] logged in with entity id 355 at (-761.3552091601769, 57.0, 926.4997034317744)
+[07Feb2026 16:59:28.226] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player vitori_pinguino
+[07Feb2026 16:59:28.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vitori_pinguino joined the game
+[07Feb2026 16:59:28.234] [Server thread/INFO] [Jade/]: Syncing config to vitori_pinguino (b127cec6-5c5e-3e36-b86f-c434375ac245)
+[07Feb2026 16:59:28.621] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of vitori_pinguino (20)
+[07Feb2026 16:59:28.621] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to vitori_pinguino
+[07Feb2026 16:59:32.101] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b127cec6-5c5e-3e36-b86f-c434375ac245
+[07Feb2026 16:59:33.106] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b127cec6-5c5e-3e36-b86f-c434375ac245
+[07Feb2026 16:59:33.106] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player vitori_pinguino (b127cec6-5c5e-3e36-b86f-c434375ac245) successfully connected to voice chat
+[07Feb2026 17:02:22.678] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 3248ms or 64 ticks
+[07Feb2026 17:02:26.327] [Server thread/WARN] [waterframes/]: Missmatchig max tick time! 214230 != 0
+[07Feb2026 17:02:28.098] [Server thread/WARN] [waterframes/]: Missmatchig max tick time! 0 != 214230
+[07Feb2026 17:12:28.339] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 4265ms or 85 ticks
+[07Feb2026 17:12:28.901] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2359ms or 47 ticks behind
+[07Feb2026 17:23:00.803] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Coronelperroso[/10.253.75.96:56762] logged in with entity id 3626 at (-960.0200973256292, 53.97500001788139, 48.370823764783474)
+[07Feb2026 17:23:00.814] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Coronelperroso
+[07Feb2026 17:23:00.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso joined the game
+[07Feb2026 17:23:00.823] [Server thread/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity SummonedHorse['Spectral Steed'/3627, l='ServerLevel[world]', x=-960.02, y=53.13, z=48.37] as it would cause deadlock
+[07Feb2026 17:23:00.940] [Server thread/INFO] [Jade/]: Syncing config to Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513)
+[07Feb2026 17:23:01.337] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Coronelperroso (20)
+[07Feb2026 17:23:01.338] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Coronelperroso
+[07Feb2026 17:23:04.724] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 17:23:05.727] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 17:23:05.727] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513) successfully connected to voice chat
+[07Feb2026 17:24:19.554] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso moved wrongly!
+[07Feb2026 17:24:56.811] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso lost connection: Disconnected
+[07Feb2026 17:24:56.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso left the game
+[07Feb2026 17:24:56.815] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Coronelperroso
+[07Feb2026 17:25:35.702] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@5472a30a[id=<null>,name=Coronelperroso,properties={},legacy=false] (/10.253.75.96:64234): Took too long to log in
+[07Feb2026 17:25:35.703] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5472a30a[id=<null>,name=Coronelperroso,properties={},legacy=false] (/10.253.75.96:64234) lost connection: Took too long to log in
+[07Feb2026 17:25:35.747] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[07Feb2026 17:26:51.395] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@3be6ff8c[id=<null>,name=Coronelperroso,properties={},legacy=false] (/10.253.75.96:55420): Took too long to log in
+[07Feb2026 17:26:51.395] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3be6ff8c[id=<null>,name=Coronelperroso,properties={},legacy=false] (/10.253.75.96:55420) lost connection: Took too long to log in
+[07Feb2026 17:26:51.446] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[07Feb2026 17:27:44.068] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Coronelperroso[/10.253.75.96:64355] logged in with entity id 4674 at (-957.6879432291241, 53.5, 32.1032234557271)
+[07Feb2026 17:27:44.075] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Coronelperroso
+[07Feb2026 17:27:44.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso joined the game
+[07Feb2026 17:27:44.086] [Server thread/INFO] [Jade/]: Syncing config to Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513)
+[07Feb2026 17:27:44.256] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Coronelperroso (20)
+[07Feb2026 17:27:44.257] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Coronelperroso
+[07Feb2026 17:27:46.566] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 17:27:47.567] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 17:27:47.568] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513) successfully connected to voice chat
+[07Feb2026 17:27:50.341] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 3066ms or 61 ticks
+[07Feb2026 17:30:27.151] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso moved wrongly!
+[07Feb2026 17:31:21.213] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 55249ms or 1104 ticks
+[07Feb2026 17:31:21.213] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 54022ms or 1080 ticks behind
+[07Feb2026 17:31:06.718] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 200128fa-5754-3bbf-816f-561e6e91d513 timed out
+[07Feb2026 17:31:21.215] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player Coronelperroso
+[07Feb2026 17:31:21.215] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to Coronelperroso
+[07Feb2026 17:31:21.227] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player b127cec6-5c5e-3e36-b86f-c434375ac245 timed out
+[07Feb2026 17:32:21.209] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player vitori_pinguino
+[07Feb2026 17:31:21.231] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vitori_pinguino lost connection: Disconnected
+[07Feb2026 17:32:21.209] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to vitori_pinguino
+[07Feb2026 17:32:21.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vitori_pinguino left the game
+[07Feb2026 17:32:21.210] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client vitori_pinguino
+[07Feb2026 17:32:21.231] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso lost connection: Disconnected
+[07Feb2026 17:32:21.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso left the game
+[07Feb2026 17:32:21.232] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Coronelperroso
+[07Feb2026 17:32:21.247] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2be39ca4[id=<null>,name=vitori_pinguino,properties={},legacy=false] (/10.253.75.189:54929) lost connection: Disconnected
+[07Feb2026 17:32:21.274] [Server thread/WARN] [waterframes/]: Rejected tick correction of 61309ms, overpass watchdog time
+[07Feb2026 17:32:21.274] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 61309ms or 1226 ticks
+[07Feb2026 17:32:21.276] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7a84e851[id=<null>,name=Coronelperroso,properties={},legacy=false] (/10.253.75.96:50967) lost connection: Disconnected
+[07Feb2026 17:32:21.277] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4d355d19[id=<null>,name=vitori_pinguino,properties={},legacy=false] (/10.253.75.189:54948) lost connection: Disconnected
+[07Feb2026 17:32:21.398] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 45207ms or 904 ticks behind
+[07Feb2026 17:32:28.819] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vitori_pinguino[/10.253.75.189:53876] logged in with entity id 5924 at (-622.5493320768163, 74.0, 740.727030225766)
+[07Feb2026 17:32:28.848] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player vitori_pinguino
+[07Feb2026 17:32:28.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vitori_pinguino joined the game
+[07Feb2026 17:32:28.878] [Server thread/INFO] [Jade/]: Syncing config to vitori_pinguino (b127cec6-5c5e-3e36-b86f-c434375ac245)
+[07Feb2026 17:32:29.282] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of vitori_pinguino (20)
+[07Feb2026 17:32:29.283] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to vitori_pinguino
+[07Feb2026 17:32:32.801] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Coronelperroso[/10.253.75.96:51033] logged in with entity id 6079 at (-511.87499999999994, 91.5, 502.875)
+[07Feb2026 17:32:32.813] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Coronelperroso
+[07Feb2026 17:32:32.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso joined the game
+[07Feb2026 17:32:32.840] [Server thread/INFO] [Jade/]: Syncing config to Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513)
+[07Feb2026 17:32:33.039] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Coronelperroso (20)
+[07Feb2026 17:32:33.039] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Coronelperroso
+[07Feb2026 17:32:33.894] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 17:32:34.896] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 17:32:34.896] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513) successfully connected to voice chat
+[07Feb2026 17:32:34.950] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b127cec6-5c5e-3e36-b86f-c434375ac245
+[07Feb2026 17:32:35.959] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b127cec6-5c5e-3e36-b86f-c434375ac245
+[07Feb2026 17:32:35.960] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player vitori_pinguino (b127cec6-5c5e-3e36-b86f-c434375ac245) successfully connected to voice chat
+[07Feb2026 17:37:43.091] [Worker-Main-29/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/6931, l='ServerLevel[world]', x=-869.00, y=49.00, z=781.00] as it would cause deadlock
+[07Feb2026 17:54:21.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso has made the advancement [Back Into Hell !]
+[07Feb2026 17:54:29.575] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 3013ms or 60 ticks
+[07Feb2026 17:55:39.769] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-719, y=38, z=943} BlockPos{x=-741, y=38, z=944}
+[07Feb2026 17:56:14.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso moved wrongly!
+[07Feb2026 17:58:24.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vitori_pinguino moved wrongly!
+[07Feb2026 17:59:13.513] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso moved wrongly!
+[07Feb2026 18:06:00.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso moved wrongly!
+[07Feb2026 18:07:00.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso moved wrongly!
+[07Feb2026 18:07:56.165] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_horse_armor
+[07Feb2026 18:08:32.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vitori_pinguino moved wrongly!
+[07Feb2026 18:10:00.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso has made the advancement [Spooky Scary Skeleton]
+[07Feb2026 18:19:23.557] [Worker-Main-34/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[07Feb2026 18:19:25.700] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 6384ms or 127 ticks
+[07Feb2026 18:19:25.701] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4309ms or 86 ticks behind
+[07Feb2026 18:19:26.093] [Server thread/WARN] [waterframes/]: Missmatchig max tick time! 214230 != 0
+[07Feb2026 18:19:27.073] [Server thread/WARN] [waterframes/]: Missmatchig max tick time! 0 != 214230
+[07Feb2026 18:24:21.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso moved too quickly! 0.006273024258916848,11.261819517930235,0.10568277470383691
+[07Feb2026 18:40:54.200] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso lost connection: Disconnected
+[07Feb2026 18:40:54.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso left the game
+[07Feb2026 18:40:54.201] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Coronelperroso
+[07Feb2026 18:41:17.866] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Coronelperroso[/10.253.75.96:60912] logged in with entity id 18871 at (-1383.0323138296699, 69.33880955255468, -1500.1144799911265)
+[07Feb2026 18:41:17.873] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Coronelperroso
+[07Feb2026 18:41:17.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso joined the game
+[07Feb2026 18:41:17.893] [Server thread/INFO] [Jade/]: Syncing config to Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513)
+[07Feb2026 18:41:18.017] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Coronelperroso (20)
+[07Feb2026 18:41:18.017] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Coronelperroso
+[07Feb2026 18:41:18.919] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 18:41:19.922] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 18:41:19.922] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513) successfully connected to voice chat
+[07Feb2026 18:51:17.329] [Server thread/WARN] [waterframes/]: Missmatchig max tick time! 214230 != 0
+[07Feb2026 18:53:11.050] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso lost connection: Disconnected
+[07Feb2026 18:53:11.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso left the game
+[07Feb2026 18:53:11.050] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Coronelperroso
+[07Feb2026 18:56:44.412] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Coronelperroso[/10.253.75.96:63396] logged in with entity id 21660 at (-957.6952359925198, 56.5, 34.929906514555846)
+[07Feb2026 18:56:44.419] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Coronelperroso
+[07Feb2026 18:56:44.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso joined the game
+[07Feb2026 18:56:44.450] [Server thread/INFO] [Jade/]: Syncing config to Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513)
+[07Feb2026 18:56:44.580] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Coronelperroso (20)
+[07Feb2026 18:56:44.581] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Coronelperroso
+[07Feb2026 18:56:45.374] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 18:56:46.376] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 18:56:46.376] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513) successfully connected to voice chat
+[07Feb2026 18:57:08.819] [Server thread/WARN] [waterframes/]: Missmatchig max tick time! 0 != 214230
+[07Feb2026 19:04:16.616] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1298, y=63, z=-1396} BlockPos{x=-1281, y=89, z=-1280}
+[07Feb2026 19:04:16.669] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1298, y=63, z=-1396} BlockPos{x=-1281, y=89, z=-1280}
+[07Feb2026 19:04:16.716] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1298, y=63, z=-1396} BlockPos{x=-1281, y=89, z=-1280}
+[07Feb2026 19:04:16.770] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1298, y=63, z=-1396} BlockPos{x=-1281, y=89, z=-1280}
+[07Feb2026 19:04:16.817] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1298, y=63, z=-1396} BlockPos{x=-1281, y=89, z=-1280}
+[07Feb2026 19:04:55.668] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1284, y=90, z=-1268} BlockPos{x=-1286, y=88, z=-1270}
+[07Feb2026 19:04:55.720] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1284, y=90, z=-1268} BlockPos{x=-1286, y=88, z=-1270}
+[07Feb2026 19:04:55.765] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1284, y=90, z=-1268} BlockPos{x=-1286, y=88, z=-1270}
+[07Feb2026 19:14:34.035] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 3089ms or 61 ticks
+[07Feb2026 19:39:10.317] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wilsonlg[/10.253.75.150:63366] logged in with entity id 33450 at (-3435.4683186759557, 93.0, -1216.4301313002613)
+[07Feb2026 19:39:10.323] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Wilsonlg
+[07Feb2026 19:39:10.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wilsonlg joined the game
+[07Feb2026 19:39:10.332] [Server thread/INFO] [Jade/]: Syncing config to Wilsonlg (cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c)
+[07Feb2026 19:39:11.394] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wilsonlg (20)
+[07Feb2026 19:39:11.395] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wilsonlg
+[07Feb2026 19:39:14.068] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c
+[07Feb2026 19:39:15.069] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c
+[07Feb2026 19:39:15.070] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wilsonlg (cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c) successfully connected to voice chat
+[07Feb2026 19:39:38.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Coronelperroso> wilson
+[07Feb2026 19:39:42.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wilsonlg> Espero que el capitulo de hoy se cine
+[07Feb2026 19:39:47.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Coronelperroso> andas en stream?
+[07Feb2026 19:39:53.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wilsonlg> No ahorita mas tarde prendo
+[07Feb2026 19:40:02.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Coronelperroso> breve
+[07Feb2026 19:40:05.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wilsonlg> Ahorita como en 20 minutos el server muere
+[07Feb2026 19:40:11.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Coronelperroso> sale stream
+[07Feb2026 19:40:14.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <vitori_pinguino> como asi
+[07Feb2026 19:41:38.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wilsonlg> Pos si
+[07Feb2026 19:41:50.876] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 15607ms or 312 ticks
+[07Feb2026 19:41:50.877] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12685ms or 253 ticks behind
+[07Feb2026 19:41:50.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wilsonlg> si quieres prendo ya
+[07Feb2026 19:42:01.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Coronelperroso> que sera de stremear?
+[07Feb2026 19:42:05.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wilsonlg> Vamos al fornite y despues al minecrafT?
+[07Feb2026 19:42:10.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wilsonlg> que dices'
+[07Feb2026 19:42:10.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Coronelperroso> dale
+[07Feb2026 19:42:12.537] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wilsonlg lost connection: Disconnected
+[07Feb2026 19:42:12.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wilsonlg left the game
+[07Feb2026 19:42:12.538] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wilsonlg
+[07Feb2026 19:44:43.121] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1379, y=100, z=-1294} BlockPos{x=-1379, y=97, z=-1294}
+[07Feb2026 19:54:02.523] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1361, y=92, z=-1279} BlockPos{x=-1361, y=91, z=-1280}
+[07Feb2026 19:54:41.276] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1359, y=90, z=-1269} BlockPos{x=-1353, y=90, z=-1276}
+[07Feb2026 19:54:41.319] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1359, y=90, z=-1269} BlockPos{x=-1353, y=90, z=-1276}
+[07Feb2026 19:54:41.375] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1359, y=90, z=-1269} BlockPos{x=-1353, y=90, z=-1276}
+[07Feb2026 19:54:41.425] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1359, y=90, z=-1269} BlockPos{x=-1353, y=90, z=-1276}
+[07Feb2026 19:54:41.475] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1359, y=90, z=-1269} BlockPos{x=-1353, y=90, z=-1276}
+[07Feb2026 20:00:50.715] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wilsonlg[/10.253.75.150:64056] logged in with entity id 39811 at (-3433.7640750789337, 92.9375, -1215.5768022958957)
+[07Feb2026 20:00:50.720] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Wilsonlg
+[07Feb2026 20:00:50.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wilsonlg joined the game
+[07Feb2026 20:00:50.729] [Server thread/INFO] [Jade/]: Syncing config to Wilsonlg (cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c)
+[07Feb2026 20:00:52.030] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wilsonlg (20)
+[07Feb2026 20:00:52.030] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wilsonlg
+[07Feb2026 20:00:54.999] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c
+[07Feb2026 20:00:56.000] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c
+[07Feb2026 20:00:56.001] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wilsonlg (cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c) successfully connected to voice chat
+[07Feb2026 20:02:35.618] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1376, y=89, z=-1248} BlockPos{x=-1374, y=91, z=-1250}
+[07Feb2026 20:02:35.667] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1376, y=89, z=-1248} BlockPos{x=-1374, y=91, z=-1250}
+[07Feb2026 20:02:35.715] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1376, y=89, z=-1248} BlockPos{x=-1374, y=91, z=-1250}
+[07Feb2026 20:02:44.308] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 3317ms or 66 ticks
+[07Feb2026 20:04:04.217] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1375, y=89, z=-1246} BlockPos{x=-1376, y=89, z=-1248}
+[07Feb2026 20:06:57.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Coronelperroso> wil?
+[07Feb2026 20:07:21.038] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 24772ms or 495 ticks
+[07Feb2026 20:07:21.039] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 23247ms or 464 ticks behind
+[07Feb2026 20:07:21.179] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wilsonlg moved too quickly! -8.335330725471977,3.0,-4.679391646884781
+[07Feb2026 20:08:02.277] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 200128fa-5754-3bbf-816f-561e6e91d513 timed out
+[07Feb2026 20:08:21.036] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player Coronelperroso
+[07Feb2026 20:08:21.034] [Server thread/WARN] [waterframes/]: Rejected tick correction of 60691ms, overpass watchdog time
+[07Feb2026 20:08:21.037] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 60691ms or 1213 ticks
+[07Feb2026 20:08:21.037] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to Coronelperroso
+[07Feb2026 20:08:21.039] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c timed out
+[07Feb2026 20:08:21.040] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player Wilsonlg
+[07Feb2026 20:08:21.040] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to Wilsonlg
+[07Feb2026 20:08:21.041] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player b127cec6-5c5e-3e36-b86f-c434375ac245 timed out
+[07Feb2026 20:08:21.041] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player vitori_pinguino
+[07Feb2026 20:08:21.042] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to vitori_pinguino
+[07Feb2026 20:08:21.066] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vitori_pinguino lost connection: Disconnected
+[07Feb2026 20:08:21.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vitori_pinguino left the game
+[07Feb2026 20:08:21.067] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client vitori_pinguino
+[07Feb2026 20:08:21.080] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso lost connection: Disconnected
+[07Feb2026 20:08:21.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso left the game
+[07Feb2026 20:08:21.080] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Coronelperroso
+[07Feb2026 20:08:21.092] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wilsonlg lost connection: Disconnected
+[07Feb2026 20:08:21.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wilsonlg left the game
+[07Feb2026 20:08:21.092] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wilsonlg
+[07Feb2026 20:08:21.730] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 45738ms or 914 ticks behind
+[07Feb2026 20:08:22.088] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vitori_pinguino[/10.253.75.189:58373] logged in with entity id 42760 at (-1297.9393347543842, 89.0, -1290.300000011921)
+[07Feb2026 20:08:22.106] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player vitori_pinguino
+[07Feb2026 20:08:22.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vitori_pinguino joined the game
+[07Feb2026 20:08:22.134] [Server thread/INFO] [Jade/]: Syncing config to vitori_pinguino (b127cec6-5c5e-3e36-b86f-c434375ac245)
+[07Feb2026 20:08:22.590] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of vitori_pinguino (20)
+[07Feb2026 20:08:22.592] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to vitori_pinguino
+[07Feb2026 20:08:26.695] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b127cec6-5c5e-3e36-b86f-c434375ac245
+[07Feb2026 20:08:27.693] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b127cec6-5c5e-3e36-b86f-c434375ac245
+[07Feb2026 20:08:27.694] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player vitori_pinguino (b127cec6-5c5e-3e36-b86f-c434375ac245) successfully connected to voice chat
+[07Feb2026 20:08:56.347] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wilsonlg[/10.253.75.150:57032] logged in with entity id 42923 at (-4833.025408273074, 66.0, 78.07852627778786)
+[07Feb2026 20:08:56.376] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Wilsonlg
+[07Feb2026 20:08:56.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wilsonlg joined the game
+[07Feb2026 20:08:56.419] [Server thread/INFO] [Jade/]: Syncing config to Wilsonlg (cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c)
+[07Feb2026 20:08:57.223] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wilsonlg (20)
+[07Feb2026 20:08:57.225] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wilsonlg
+[07Feb2026 20:08:58.832] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c
+[07Feb2026 20:08:59.832] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c
+[07Feb2026 20:08:59.833] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wilsonlg (cd54cca8-cd6f-3848-be0c-1f3b1ff9bb0c) successfully connected to voice chat
+[07Feb2026 20:15:18.266] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Coronelperroso[/10.253.75.96:63870] logged in with entity id 44277 at (-953.3000000119209, 65.0, 39.30000001192093)
+[07Feb2026 20:15:18.272] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Coronelperroso
+[07Feb2026 20:15:18.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso joined the game
+[07Feb2026 20:15:18.282] [Server thread/INFO] [Jade/]: Syncing config to Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513)
+[07Feb2026 20:15:18.417] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Coronelperroso (20)
+[07Feb2026 20:15:18.417] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Coronelperroso
+[07Feb2026 20:15:19.478] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 20:15:20.481] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 200128fa-5754-3bbf-816f-561e6e91d513
+[07Feb2026 20:15:20.481] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Coronelperroso (200128fa-5754-3bbf-816f-561e6e91d513) successfully connected to voice chat
+[07Feb2026 20:15:25.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wilsonlg> q pasho¡
+[07Feb2026 20:19:00.429] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 200128fa-5754-3bbf-816f-561e6e91d513 timed out
+[07Feb2026 20:19:00.429] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player Coronelperroso
+[07Feb2026 20:19:00.429] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to Coronelperroso
+[07Feb2026 20:19:18.750] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Coronelperroso lost connection: Timed out
+[07Feb2026 20:19:18.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Coronelperroso left the game
+[07Feb2026 20:19:18.751] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Coronelperroso
+[07Feb2026 20:23:44.006] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wilsonlg moved wrongly!
+[07Feb2026 20:25:48.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wilsonlg has made the advancement [Eye Spy]
+[07Feb2026 20:28:01.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No entity was found
+[07Feb2026 20:30:35.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
